@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body
+        {
+            display: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        @media (min-width:310px) and (max-width:510px)
+        {
+            #box
+            {
+                display: block;
+            }
+
+            .logo img
+            {
+                height: 150px;
+                width: 150px;
+                position: absolute;
+                top: 5px;
+                right: 5px;
+            }
+
+            h3
+            {
+                text-align: center;
+                font-size: 25px;
+            }
+
+            /*   Head   */
+            .head
+            {
+                height: 570px;
+                text-align: center;
+                width: 100%;
+                background-color: green;
+                color: white;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+
+            .head video
+            {
+                height: 570px;
+                position: center;
+                object-fit: cover;
+                overflow-clip-margin: content-box;
+                width: 100%;
+            }
+
+            .head img
+            {
+                height: 250px;
+                width: 250px;
+                border-radius: 0px 100px 0px 100px;
+                display: flex;
+                margin: auto;
+                margin-top: -395px;
+            }
+
+            .head h1
+            {
+                font-size: 45px;
+            }
+            .head h1, h3
+            {
+                color: white;
+                line-height: 30px;
+    
+            }
+
+            /*   About   */
+            .about
+            {
+                margin-top: 3px;
+                padding: 10px;
+                color: white;
+                text-align: center;
+                background: linear-gradient(to right,rgb(91, 122, 134),rgb(60, 44, 14));
+            }
+
+            /*    Teem   */
+            .teem
+            {
+                margin-top: 3px;
+                padding: 10px;
+                color: white;
+                background: linear-gradient(to right,rgb(60, 44, 14),rgb(91, 122, 134));
+            }
+            
+            .teemmate
+            {
+                display: inline-block;
+                padding: 15px;
+                margin: 5px;
+                text-align: center;
+                height: 180px;
+                width: 120px;
+                border-radius: 10px;
+                border: 1px solid black;
+                font-size: 15px;
+                line-height: 2px;
+            }
+            .teemmate:hover
+            {
+                background-color: green;
+                border: 1px solid white;
+            }
+            .teemmate img
+            {
+                height: 80px;
+                width: 80px;
+                border-radius: 20px;
+                border: 1px solid black;
+            }
+
+            /*   Foot   */
+            .foot
+            {
+                font-size: 15px;
+                margin-top: 3px;
+                color: white;
+                text-align: center;
+                height: 330px;
+            
+            }
+           
+            .foot video
+            {
+                height: 330px;
+                position: center;
+                object-fit: cover;
+                overflow-clip-margin: content-box;
+                width: 100%;
+            }
+
+            .contact
+            {
+                position: relative;
+                bottom: 320px;
+                left: auto;
+                
+            }
+            .contact a
+            {
+                display: inline-block;
+                font-size: 20px;
+                margin: 10px;
+                line-height: 25px;
+                text-decoration: none;
+                color: white;
+            }
+            .contact a:hover
+            {
+                color: black;
+                background-color: skyblue;
+                padding: 3px 8px;
+                border-radius: 5px;
+                margin: 0;
+                font-style: oblique;
+            }
+            
+        }
+    </style>
+</head>
+
+<body id="box">
+    <div>
+        <!---logo-->
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+
+        <!---Head-->
+        <div class="head">
+            <video loop muted autoplay>
+                <source src="27706-365890968_small.mp4">
+            </video>
+            <img src="profile.jpg" alt="">
+            <h1>𝑹𝒆𝒉𝒂𝒏 𝑨𝒉𝒎𝒂𝒅</h1>
+            <h3>Web Developer</h3>
+        </div>
+
+        <!---About-->
+        <div class="about">
+            <h3>Details</h3>
+            <p>Hi ! Its me Rehan Ahmad from Ahmad Brothers. I'm working on E-Commerce services in my country like web designing, graphic designing, shopify, video edditing, email management and other services also ..... </p>
+            <p>I'm from Pakistan done I.Com from Gujranwala board privately</p>
+        </div>
+
+        <!---Teem Members-->
+        <div class="teem">
+            <h3>Team</h3>
+            <div class="teemmate">
+                <img src="20200107_194950.jpg" alt="">
+                <h3>Numan</h3>
+                <span>Programer</span>
+            </div>
+            <div class="teemmate">
+                <img src="20250206_210154.jpg" alt="">
+                <h3>Abdullah</h3>
+                <span>Video Editor</span>
+            </div>
+            <div class="teemmate">
+                <img src="20250206_210510.jpg" alt="">
+                <h3>Arslan</h3>
+                <span>pther services</span>
+            </div>
+
+
+
+            <div class="teemmate">
+                <img src="20250206_210510.jpg" alt="">
+                <h3>Arslan</h3>
+                <span>pther services</span>
+            </div>
+            <div class="teemmate">
+                <img src="20250206_210510.jpg" alt="">
+                <h3>Arslan</h3>
+                <span>pther services</span>
+            </div>
+        </div>
+
+        <!---Foot-->
+        <div class="foot">
+            <video loop muted autoplay>
+                <source src="Free Universe Stars Video Gif Animated Zoom Virtual Background.mp4">
+            </video>
+            <div class="contact">
+                <h3>Contact</h3>
+                <a class="bi bi-whatsapp" href=""> Whatsapp</a>
+                <a class="bi bi-linkedin" href=""> Linkedin</a>
+                <a class="bi bi-instagram" href=""> Instagram</a>
+                <a class="bi bi-facebook" href=""> Facebook</a>
+                <a class="bi bi-envelope" href=""> Email</a>
+                <a class="bi bi-telephone" href=""> Call</a>
+                <br><br>
+                <p>Copyright <strong class="bi bi-c-circle"> Ahmad  </strong>Brothers. &nbsp &nbsp All rights reserved.</p>
+                <p class="bi bi-code" id="clo"> Developer: &nbsp <a href="">Rehan Ahmad</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
